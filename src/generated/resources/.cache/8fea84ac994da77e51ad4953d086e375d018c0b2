@@ -1,0 +1,4 @@
+// 1.21	2024-09-14T15:04:52.2870483	Tags for minecraft:block mod id stitchcraft
+1f8479c9fedb24276b155701c6d8fb03330a1a04 data/minecraft/tags/block/mineable/pickaxe.json
+04c09eba96536dee52e857fba90a85b0c4110391 data/minecraft/tags/block/needs_diamond_tool.json
+369af455664c0de1bbd89558e9cd62986853f054 data/minecraft/tags/block/needs_iron_tool.json

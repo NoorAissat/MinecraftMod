@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stitchcraft:alexandrite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "stitchcraft:alexandrite"
+  }
+}
