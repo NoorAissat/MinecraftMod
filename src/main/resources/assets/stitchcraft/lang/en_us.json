@@ -1,0 +1,19 @@
+{
+  "item.stitchcraft.alexandrite": "Alexandrite",
+  "item.stitchcraft.raw_alexandrite": "Raw Alexandrite",
+  "item.stitchcraft.chisel": "Chisel",
+
+  "block.stitchcraft.alexandrite_block" : "Block of Alexandrite",
+  "block.stitchcraft.raw_alexandrite_block" : "Raw Block of Alexandrite",
+  "block.stitchcraft.alexandrite_ore" : "Alexandrite Ore",
+  "block.stitchcraft.alexandrite_deepslate_ore" : "Alexandrite Deepslate Ore",
+  "block.stitchcraft.magic_block" : "Magic Block",
+
+  "creativetab.stitchcraft.alexandrite_items": "Alexandrite Items",
+  "creativetab.stitchcraft.alexandrite_blocks": "Alexandrite Blocks",
+
+  "tooltip.stitchcraft.magic_block.tooltip": "This Block is quite MAGICAL",
+  "tooltip.stitchcraft.chisel.shift_down":"This item changes certain blocks",
+  "tooltip.stitchcraft.chisel": "Press Shift for more information!"
+
+}
