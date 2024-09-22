@@ -55,6 +55,7 @@ public class StitchCraft{
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.ALEXANDRITE);
             event.accept(ModItems.RAW_ALEXANDRITE);
+
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
