@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stitchcraft:shadow_gem"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "stitchcraft:shadow_shard"
+  }
+}

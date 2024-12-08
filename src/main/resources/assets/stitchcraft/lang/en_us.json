@@ -4,6 +4,8 @@
   "item.stitchcraft.chisel": "Chisel",
   "item.stitchcraft.shadow_sword":"Shadow Sword",
   "item.stitchcraft.shadow_scythe":"Shadow Scythe",
+  "item.stitchcraft.shadow_axe":"Shadow Axe",
+  "item.stitchcraft.shadow_blade":"Shadow Blade",
 
   "block.stitchcraft.alexandrite_block" : "Block of Alexandrite",
   "block.stitchcraft.raw_alexandrite_block" : "Raw Block of Alexandrite",
@@ -16,6 +18,9 @@
 
   "tooltip.stitchcraft.magic_block.tooltip": "This Block is quite MAGICAL",
   "tooltip.stitchcraft.chisel.shift_down":"This item changes certain blocks",
-  "tooltip.stitchcraft.chisel": "Press Shift for more information!"
+  "tooltip.stitchcraft.chisel": "Press Shift for more information!",
+
+  "block.stitchcraft.advanced_crafting_table": "Advanced Crafting Table"
+
 
 }

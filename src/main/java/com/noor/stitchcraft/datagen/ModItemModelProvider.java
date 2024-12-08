@@ -18,10 +18,16 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         basicItem(ModItems.ALEXANDRITE.get());
-        basicItem(ModItems.RAW_ALEXANDRITE.get());
+        basicItem(ModItems.SHADOW_INGOT.get());
         basicItem(ModItems.CHISEL.get());
         handheldItem(ModItems.SHADOW_SWORD);
         handheldItem(ModItems.SHADOW_SCYTHE);
+        handheldItem(ModItems.SHADOW_AXE);
+        handheldItem(ModItems.SHADOW_BLADE);
+        handheldItem(ModItems.SHADOW_PICKAXE);
+        handheldItem(ModItems.SHADOW_SHARD);
+        handheldItem(ModItems.SHADOW_GEM);
+        handheldItem(ModItems.SHADOW_BLADE_HANDLE);
 
 
     }

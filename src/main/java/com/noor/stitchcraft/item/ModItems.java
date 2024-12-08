@@ -2,10 +2,10 @@ package com.noor.stitchcraft.item;
 
 
 import com.noor.stitchcraft.StitchCraft;
+import com.noor.stitchcraft.block.ModBlocks;
 import com.noor.stitchcraft.item.custom.ChiselItem;
 import com.noor.stitchcraft.item.custom.ModTiers;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -16,13 +16,27 @@ public class ModItems {
 
     public static final RegistryObject<Item> ALEXANDRITE = ITEMS.register("alexandrite",() -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> RAW_ALEXANDRITE = ITEMS.register("raw_alexandrite",() -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SHADOW_INGOT = ITEMS.register("shadow_ingot",() -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> CHISEL = ITEMS.register("chisel",() -> new ChiselItem(new Item.Properties().durability(32)));
 
-    public static final RegistryObject<Item> SHADOW_SWORD = ITEMS.register("shadow_sword",() -> new SwordItem(ModTiers.SHADOW, new Item.Properties().attributes(SwordItem.createAttributes(ModTiers.SHADOW,10,6f))));
+    public static final RegistryObject<Item> SHADOW_SWORD = ITEMS.register("shadow_sword",() -> new SwordItem(ModToolTiers.SHADOW, new Item.Properties().attributes(SwordItem.createAttributes(ModToolTiers.SHADOW,10,6f))));
 
-    public static final RegistryObject<Item> SHADOW_SCYTHE = ITEMS.register("shadow_scythe",() -> new SwordItem(ModTiers.SHADOW, new Item.Properties().attributes(SwordItem.createAttributes(ModTiers.SHADOW,10,6f))));
+    public static final RegistryObject<Item> SHADOW_SCYTHE = ITEMS.register("shadow_scythe",() -> new SwordItem(ModToolTiers.SHADOW, new Item.Properties().attributes(SwordItem.createAttributes(ModToolTiers.SHADOW,10,6f))));
+
+    public static final RegistryObject<Item> SHADOW_AXE = ITEMS.register("shadow_axe",() -> new AxeItem(ModToolTiers.SHADOW, new Item.Properties().attributes(AxeItem.createAttributes(ModToolTiers.SHADOW,10,6f))));
+
+    public static final RegistryObject<Item> SHADOW_PICKAXE = ITEMS.register("shadow_pickaxe",() -> new PickaxeItem(ModToolTiers.SHADOW, new Item.Properties().attributes(PickaxeItem.createAttributes(ModToolTiers.SHADOW,10,6f))));
+
+    public static final RegistryObject<Item> SHADOW_BLADE = ITEMS.register("shadow_blade",() ->  new SwordItem(ModToolTiers.SHADOW, new Item.Properties().attributes(SwordItem.createAttributes(ModToolTiers.SHADOW,14,6f))));
+
+    public static final RegistryObject<Item> SHADOW_SHARD = ITEMS.register("shadow_shard", () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> SHADOW_GEM = ITEMS.register("shadow_gem", () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> SHADOW_BLADE_HANDLE = ITEMS.register("shadow_blade_handle", () -> new Item(new Item.Properties()));
+
+
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

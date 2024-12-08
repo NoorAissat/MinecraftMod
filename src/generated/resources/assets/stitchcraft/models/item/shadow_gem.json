@@ -1,0 +1,48 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "stitchcraft:item/shadow_gem",
+		"particle": "stitchcraft:item/shadow_gem"
+	},
+	"elements": [
+		{
+			"from": [8.425, 5.275, 6.925],
+			"to": [10.425, 7.275, 8.925],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8.425, 5.275, 6.925]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 2], "texture": "#0"},
+				"east": {"uv": [0, 2, 2, 4], "texture": "#0"},
+				"south": {"uv": [2, 0, 4, 2], "texture": "#0"},
+				"west": {"uv": [2, 2, 4, 4], "texture": "#0"},
+				"up": {"uv": [2, 6, 0, 4], "texture": "#0"},
+				"down": {"uv": [6, 0, 4, 2], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [-0.5, 2.25, 1.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0.5, 2.25, 1.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -30, 0],
+			"translation": [-0.25, 2.75, 0],
+			"scale": [1.76, 1.76, 1.76]
+		},
+		"ground": {
+			"rotation": [0, 67, 0],
+			"translation": [0, -1.75, 0],
+			"scale": [1.63, 1.63, 1.63]
+		},
+		"gui": {
+			"translation": [-1.75, 5, 0],
+			"scale": [4, 4, 4]
+		},
+		"fixed": {
+			"translation": [-2, 5, 1],
+			"scale": [4, 4, 4]
+		}
+	}
+}

@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import com.noor.stitchcraft.block.ModBlocks;
 import com.noor.stitchcraft.item.ModCreativeModeTabs;
 import com.noor.stitchcraft.item.ModItems;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -44,6 +45,11 @@ public class StitchCraft{
         modEventBus.addListener(this::addCreative);
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+
+
+
+
+
     }
 
     private void commonSetup(final FMLCommonSetupEvent event){
@@ -54,7 +60,7 @@ public class StitchCraft{
     private void addCreative(BuildCreativeModeTabContentsEvent event){
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.ALEXANDRITE);
-            event.accept(ModItems.RAW_ALEXANDRITE);
+            event.accept(ModItems.SHADOW_INGOT);
 
         }
 
@@ -76,6 +82,7 @@ public class StitchCraft{
     public static class ClientModEvents{
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+
 
         }
     }

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "stitchcraft:shadow_gem"
+    },
+    "B": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "C": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+    "pattern": [
+      " CA",
+      " BC",
+      "B  "
+    ],
+    "result": {
+      "count": 1,
+      "id": "stitchcraft:shadow_blade_handle"
+    }
+
+}

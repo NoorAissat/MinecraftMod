@@ -19,10 +19,18 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.stitchcraft.alexandrite_items"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.ALEXANDRITE.get());
-                        output.accept(ModItems.RAW_ALEXANDRITE.get());
+                        output.accept(ModItems.SHADOW_INGOT.get());
                         output.accept(ModItems.CHISEL.get());
                         output.accept(ModItems.SHADOW_SWORD.get());
                         output.accept(ModItems.SHADOW_SCYTHE.get());
+                        output.accept(ModItems.SHADOW_AXE.get());
+                        output.accept(ModItems.SHADOW_BLADE.get());
+                        output.accept(ModItems.SHADOW_PICKAXE.get());
+                        output.accept(ModItems.SHADOW_SHARD.get());
+                        output.accept(ModItems.SHADOW_GEM.get());
+                        output.accept(ModItems.SHADOW_BLADE_HANDLE.get());
+
+
 
                     })
                     .build());
@@ -37,6 +45,7 @@ public static final RegistryObject<CreativeModeTab> ALEXANDRITE_BLOCKS_TAB = CRE
                         output.accept(ModBlocks.ALEXANDRITE_ORE.get());
                         output.accept(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE.get());
                         output.accept(ModBlocks.MAGIC_BLOCK.get());
+
 
                     })
                     .build());
