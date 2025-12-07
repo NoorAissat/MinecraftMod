@@ -1,0 +1,9 @@
+{
+  "type": "stitchcraft:shadow_table",
+  "ingredient": {
+    "item": "stitchcraft:shadow_shard"
+  },
+  "result": {
+    "id": "stitchcraft:shadow_ingot"
+  }
+}

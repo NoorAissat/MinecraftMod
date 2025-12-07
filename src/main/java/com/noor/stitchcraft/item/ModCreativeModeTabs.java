@@ -30,6 +30,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SHADOW_GEM.get());
                         output.accept(ModItems.SHADOW_BLADE_HANDLE.get());
 
+                        output.accept(ModItems.SHADOW_HELMET.get());
+                        output.accept(ModItems.SHADOW_CHESTPLATE.get());
+                        output.accept(ModItems.SHADOW_LEGGINGS.get());
+                        output.accept(ModItems.SHADOW_BOOTS.get());
+
+                        output.accept(ModBlocks.SHADOW_DEEPSLATE_ORE.get());
 
 
                     })
@@ -45,6 +51,7 @@ public static final RegistryObject<CreativeModeTab> ALEXANDRITE_BLOCKS_TAB = CRE
                         output.accept(ModBlocks.ALEXANDRITE_ORE.get());
                         output.accept(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE.get());
                         output.accept(ModBlocks.MAGIC_BLOCK.get());
+                        output.accept(ModBlocks.SHADOW_TABLE.get());
 
 
                     })

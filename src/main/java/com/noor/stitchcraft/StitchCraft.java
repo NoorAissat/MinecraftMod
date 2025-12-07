@@ -2,8 +2,12 @@ package com.noor.stitchcraft;
 
 import com.mojang.logging.LogUtils;
 import com.noor.stitchcraft.block.ModBlocks;
+import com.noor.stitchcraft.block.entity.ModBlockEntities;
 import com.noor.stitchcraft.item.ModCreativeModeTabs;
 import com.noor.stitchcraft.item.ModItems;
+import com.noor.stitchcraft.recipe.ModRecipes;
+import com.noor.stitchcraft.screen.ModMenuTypes;
+import com.noor.stitchcraft.screen.custom.ShadowTableScreen;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -39,6 +43,9 @@ public class StitchCraft{
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
+        ModMenuTypes.register(modEventBus);
+        ModRecipes.register(modEventBus);
 
 
         // Register the item to a creative tab
@@ -82,8 +89,14 @@ public class StitchCraft{
     public static class ClientModEvents{
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            MenuScreens.register(ModMenuTypes.SHADOW_TABLE_MENU.get(), ShadowTableScreen::new);
 
         }
+
+
+
+
+
+
     }
 }

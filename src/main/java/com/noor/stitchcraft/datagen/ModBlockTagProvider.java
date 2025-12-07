@@ -22,15 +22,27 @@ public class ModBlockTagProvider extends BlockTagsProvider {
             .add(ModBlocks.ALEXANDRITE_BLOCK.get())
             .add(ModBlocks.RAW_ALEXANDRITE_BLOCK.get())
             .add(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE.get())
+            .add(ModBlocks.SHADOW_DEEPSLATE_ORE.get())
+            .add(ModBlocks.SHADOW_NETHER_ORE.get())
+            .add(ModBlocks.SHADOW_END_ORE.get())
             .add(ModBlocks.ALEXANDRITE_ORE.get())
             .add(ModBlocks.MAGIC_BLOCK.get());
 
     tag(BlockTags.NEEDS_IRON_TOOL)
             .add(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE.get());
 
+        tag(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.SHADOW_DEEPSLATE_ORE.get());
+        tag(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.SHADOW_NETHER_ORE.get());
+        tag(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.SHADOW_END_ORE.get());
+
     tag(BlockTags.NEEDS_DIAMOND_TOOL)
             .add(ModBlocks.RAW_ALEXANDRITE_BLOCK.get());
     }
+
+
 
 
 }

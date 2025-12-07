@@ -1,5 +1,9 @@
-// 1.21	2024-09-14T13:29:14.051452	Loot Tables
+// 1.21	2025-12-05T16:52:17.9108383	Loot Tables
 168eecd49334a155ff17b7f9a4796d6b4b2d0b14 data/stitchcraft/loot_table/blocks/alexandrite_block.json
-fd282edf8ab28dea5ec6d2c39e132721e74976a0 data/stitchcraft/loot_table/blocks/alexandrite_deepslate_ore.json
-b556ecbf5751cd1bfd38db635d448d85ac60e182 data/stitchcraft/loot_table/blocks/alexandrite_ore.json
+c3dbfaf71fbdd5c6ec7e43bfca8d66493141c51b data/stitchcraft/loot_table/blocks/alexandrite_deepslate_ore.json
+a3694dd12dfe695f54cd4c96f0a2d0d49f0b9a0f data/stitchcraft/loot_table/blocks/alexandrite_ore.json
 e39dde663f9d2e4ed6b8ff44f9f301df56dba66d data/stitchcraft/loot_table/blocks/raw_alexandrite_block.json
+2786adc57f10568079f3277b03544015b58106a8 data/stitchcraft/loot_table/blocks/shadow_deepslate_ore.json
+3f2e45292c9acbaad1e0ac6e51b4bc6849de3e72 data/stitchcraft/loot_table/blocks/shadow_end_ore.json
+5a086bc596ae4afe4402b30534cb915440d79cab data/stitchcraft/loot_table/blocks/shadow_nether_ore.json
+cc285208d540b2d67c0c73f3bced880ccf98c04f data/stitchcraft/loot_table/blocks/shadow_table.json

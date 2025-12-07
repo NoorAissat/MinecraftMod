@@ -1,6 +1,7 @@
 package com.noor.stitchcraft.datagen;
 
 import com.noor.stitchcraft.StitchCraft;
+import com.noor.stitchcraft.worldgen.ModConfiguredFeatures;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
@@ -35,7 +36,9 @@ public class DataGenerators {
         generator.addProvider(event.includeServer(), new ModItemTagProvider(packOutput,lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
 
 
-      generator.addProvider(event.includeClient(), new ModItemModelProvider(packOutput, existingFileHelper));
-      generator.addProvider(event.includeClient(), new ModBlockStateProvider(packOutput, existingFileHelper));
+        generator.addProvider(event.includeClient(), new ModItemModelProvider(packOutput, existingFileHelper));
+        generator.addProvider(event.includeClient(), new ModBlockStateProvider(packOutput, existingFileHelper));
+
+        generator.addProvider(event.includeServer(), new ModDatapackEntries(packOutput, lookupProvider));
     }
 }

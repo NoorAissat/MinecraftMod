@@ -5,6 +5,8 @@ import com.noor.stitchcraft.StitchCraft;
 import com.noor.stitchcraft.block.ModBlocks;
 import com.noor.stitchcraft.item.custom.ChiselItem;
 import com.noor.stitchcraft.item.custom.ModTiers;
+import com.noor.stitchcraft.item.custom.ShadowArmorItem;
+import com.noor.stitchcraft.item.custom.ShadowScytheItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -22,7 +24,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> SHADOW_SWORD = ITEMS.register("shadow_sword",() -> new SwordItem(ModToolTiers.SHADOW, new Item.Properties().attributes(SwordItem.createAttributes(ModToolTiers.SHADOW,10,6f))));
 
-    public static final RegistryObject<Item> SHADOW_SCYTHE = ITEMS.register("shadow_scythe",() -> new SwordItem(ModToolTiers.SHADOW, new Item.Properties().attributes(SwordItem.createAttributes(ModToolTiers.SHADOW,10,6f))));
+    // public static final RegistryObject<Item> SHADOW_SCYTHE = ITEMS.register("shadow_scythe",() -> new SwordItem(ModToolTiers.SHADOW, new Item.Properties().attributes(SwordItem.createAttributes(ModToolTiers.SHADOW,10,6f))));
 
     public static final RegistryObject<Item> SHADOW_AXE = ITEMS.register("shadow_axe",() -> new AxeItem(ModToolTiers.SHADOW, new Item.Properties().attributes(AxeItem.createAttributes(ModToolTiers.SHADOW,10,6f))));
 
@@ -35,6 +37,32 @@ public class ModItems {
     public static final RegistryObject<Item> SHADOW_GEM = ITEMS.register("shadow_gem", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> SHADOW_BLADE_HANDLE = ITEMS.register("shadow_blade_handle", () -> new Item(new Item.Properties()));
+
+
+
+
+    public static final RegistryObject<Item> SHADOW_SCYTHE = ITEMS.register("shadow_scythe", () -> new ShadowScytheItem(new Item.Properties().attributes(SwordItem.createAttributes(ModToolTiers.SHADOW,10,6f))));
+
+
+
+
+
+    //Armor
+    public static final RegistryObject<Item> SHADOW_HELMET = ITEMS.register("shadow_helmet",
+            () -> new ShadowArmorItem(ModArmorMaterials.SHADOW_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(50))));
+
+    public static final RegistryObject<Item> SHADOW_CHESTPLATE = ITEMS.register("shadow_chestplate",
+            () -> new ShadowArmorItem(ModArmorMaterials.SHADOW_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(50))));
+
+    public static final RegistryObject<Item> SHADOW_LEGGINGS = ITEMS.register("shadow_leggings",
+            () -> new ShadowArmorItem(ModArmorMaterials.SHADOW_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(50))));
+
+    public static final RegistryObject<Item> SHADOW_BOOTS = ITEMS.register("shadow_boots",
+            () -> new ShadowArmorItem(ModArmorMaterials.SHADOW_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties()));
 
 
 

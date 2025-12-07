@@ -23,3 +23,10 @@ run
 
 # Files from Forge MDK
 forge*changelog.txt
+
+# Forge run directories
+run/
+run-data/
+
+# Forge cache folders (ONLY the cache, not the generated assets)
+src/generated/resources/.cache/

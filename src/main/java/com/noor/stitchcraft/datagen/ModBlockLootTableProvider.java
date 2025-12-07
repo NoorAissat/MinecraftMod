@@ -34,11 +34,21 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.ALEXANDRITE_BLOCK.get());
         dropSelf(ModBlocks.RAW_ALEXANDRITE_BLOCK.get());
        //dropSelf(ModBlocks.MAGIC_BLOCK.get());
+        this.dropSelf(ModBlocks.SHADOW_TABLE.get());
 
         this.add(ModBlocks.ALEXANDRITE_ORE.get(),
                 block -> createOreDrop(ModBlocks.ALEXANDRITE_ORE.get(), ModItems.SHADOW_INGOT.get()));
-        this.add(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE.get(),block -> createMultipleOreDrops(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE.get(), ModItems.SHADOW_INGOT.get(), 2 ,6));
+        this.add(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE.get(),
+                block -> createMultipleOreDrops(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE.get(), ModItems.SHADOW_INGOT.get(), 2 ,6));
 
+        this.add(ModBlocks.SHADOW_NETHER_ORE.get(),
+                block -> createMultipleOreDrops(ModBlocks.SHADOW_NETHER_ORE.get(), ModItems.SHADOW_SHARD.get(), 2 ,6));
+
+        this.add(ModBlocks.SHADOW_END_ORE.get(),
+                block -> createMultipleOreDrops(ModBlocks.SHADOW_END_ORE.get(), ModItems.SHADOW_SHARD.get(), 2 ,6));
+
+        this.add(ModBlocks.SHADOW_DEEPSLATE_ORE.get(),
+                block -> createMultipleOreDrops(ModBlocks.SHADOW_DEEPSLATE_ORE.get(), ModItems.SHADOW_SHARD.get(), 2 ,6));
 
 
     }

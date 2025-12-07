@@ -1,5 +1,8 @@
 {
   "values": [
-    "stitchcraft:alexandrite_deepslate_ore"
+    "stitchcraft:alexandrite_deepslate_ore",
+    "stitchcraft:shadow_deepslate_ore",
+    "stitchcraft:shadow_nether_ore",
+    "stitchcraft:shadow_end_ore"
   ]
 }

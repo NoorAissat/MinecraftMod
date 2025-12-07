@@ -6,12 +6,22 @@
   "item.stitchcraft.shadow_scythe":"Shadow Scythe",
   "item.stitchcraft.shadow_axe":"Shadow Axe",
   "item.stitchcraft.shadow_blade":"Shadow Blade",
+  "item.stitchcraft.shadow_shard":"Shadow Shard",
+
+  "item.stitchcraft.shadow_helmet":"Shadow Helmet",
+  "item.stitchcraft.shadow_chestplate":"Shadow Chestplate",
+  "item.stitchcraft.shadow_leggings":"Shadow Leggings",
+  "item.stitchcraft.shadow_boots":"Shadow Boots",
 
   "block.stitchcraft.alexandrite_block" : "Block of Alexandrite",
   "block.stitchcraft.raw_alexandrite_block" : "Raw Block of Alexandrite",
   "block.stitchcraft.alexandrite_ore" : "Alexandrite Ore",
   "block.stitchcraft.alexandrite_deepslate_ore" : "Alexandrite Deepslate Ore",
+  "block.stitchcraft.shadow_deepslate_ore" : "Shadow Deepslate Ore",
+  "block.stitchcraft.shadow_nether_ore" : "Shadow Deepslate Ore",
+  "block.stitchcraft.shadow_end_ore" : "Shadow Deepslate Ore",
   "block.stitchcraft.magic_block" : "Magic Block",
+  "block.stitchcraft.shadow_table" : "Shadow Table",
 
   "creativetab.stitchcraft.alexandrite_items": "Alexandrite Items",
   "creativetab.stitchcraft.alexandrite_blocks": "Alexandrite Blocks",
@@ -21,6 +31,8 @@
   "tooltip.stitchcraft.chisel": "Press Shift for more information!",
 
   "block.stitchcraft.advanced_crafting_table": "Advanced Crafting Table"
+
+
 
 
 }

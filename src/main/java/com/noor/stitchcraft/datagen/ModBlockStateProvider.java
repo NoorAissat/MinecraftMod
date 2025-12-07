@@ -25,7 +25,11 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.ALEXANDRITE_ORE);
         blockWithItem(ModBlocks.RAW_ALEXANDRITE_BLOCK);
         blockWithItem(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE);
+        blockWithItem(ModBlocks.SHADOW_DEEPSLATE_ORE);
+        blockWithItem(ModBlocks.SHADOW_NETHER_ORE);
+        blockWithItem(ModBlocks.SHADOW_END_ORE);
         blockWithItem(ModBlocks.MAGIC_BLOCK);
+        blockWithItem(ModBlocks.SHADOW_TABLE);
 
 
     }
